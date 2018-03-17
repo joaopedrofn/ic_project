@@ -1,7 +1,7 @@
 import math
 
-log = open("transact_train.csv", "r")
-db = open("database.csv", "w")
+log = open("transact_class.csv", "r")
+db = open("database_class.csv", "w")
 
 def variance(population):
 	if len(population) == 0: return 0
