@@ -1,0 +1,39 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 900 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     database_mode-weka.filters.unsupervised.attribute.Remove-R1,16,22,24-28
+Instances:    50000
+Attributes:   21
+              startHour
+              startWeekday
+              duration
+              cCount
+              cMinPrice
+              cMaxPrice
+              cSumPrice
+              bCount
+              bMinPrice
+              bMaxPrice
+              bSumPrice
+              bStep
+              onlineStatus
+              availability
+              maxVal
+              customerScore
+              accountLifetime
+              payments
+              age
+              lastOrder
+              order
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 900 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 222.73 seconds
+
