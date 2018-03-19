@@ -13,7 +13,7 @@
 @attribute bSumPrice numeric
 @attribute bStep numeric
 @attribute onlineStatus {y,n}
-@attribute availability {'completely orderable','mainly orderable','completely not orderable',mixed,'completely not determinable','mainly not orderable'}
+@attribute availability {'completely orderable','completely not orderable','mainly orderable',mixed,'completely not determinable','mainly not orderable','mainly not determinable'}
 @attribute maxVal numeric
 @attribute customerScore numeric
 @attribute accountLifetime numeric
