@@ -1,4 +1,4 @@
-=== Run information ===
+ === Run information ===
 
 Scheme:       weka.classifiers.meta.AttributeSelectedClassifier -E "weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.lazy.IBk -F 5 -T 0.01 -R 1 -E DEFAULT -- -K 5 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"" -S "weka.attributeSelection.GeneticSearch -Z 20 -G 20 -C 0.55 -M 0.01 -R 20 -S 1" -W weka.classifiers.lazy.IBk -- -K 5 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
 Relation:     database_mean_unknown
